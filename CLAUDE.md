@@ -60,6 +60,12 @@
   project, explicitly ask me about it
 - Always put a new line at the end of a file
 
+### Java
+- Embrace immutability, make use of Java records whenever possible
+- Embrace the use of Optional over null 
+- Embrace functional programming paradigms unless they seem stupid, overkill,
+  or worsen readability
+
 ## Working with git
 - Write concise commit messages using the recommendations from https://cbea.ms/git-commit/
 - Always put a commit message body, explainaing the WHAT and WHY of the changes
