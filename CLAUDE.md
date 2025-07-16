@@ -42,6 +42,19 @@
   leaking unverified interactions into subsequent tests, this can usually be
   done well in the @AfterEach method
 
+### AssertJ
+- Please chain assertions where possible
+- Please make use of singleElement()
+- Please make use of extracting(...) or similar methods where meaningful
+
+### Mockito
+- Please verify mock interactions and make sure no unverified interactions leak
+  into subsequent tests
+- Exception: don't verify if doing black box testing and/or using fake
+  implementations instead of mocks
+- Avoid using spy unless absolutely neeed. If you think it's needed, question
+  the design under test first
+
 ## Code Style
 - If no specific coding style has been specified in the context of your
   project, explicitly ask me about it
